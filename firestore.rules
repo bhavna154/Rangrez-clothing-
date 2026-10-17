@@ -1,0 +1,63 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // 1. Customer Orders: Strictly private (never readable by public)
+    // All order creation, lookup and status checks are mediated securely by backend server.
+    match /orders/{orderId} {
+      allow read, write: if false;
+    }
+
+    // 2. Customer Directory & Profiles: Strictly private
+    match /customers/{customerId} {
+      allow read, write: if false;
+    }
+
+    // 3. Coupons & Discounts: Strictly server-managed
+    match /coupons/{couponId} {
+      allow read, write: if false;
+    }
+
+    // 4. Products Catalog: Publicly readable; writable ONLY by server via Admin SDK
+    // Stripped of cost, margin, and internal notes before saving
+    match /products/{productId} {
+      allow read: if true;
+      allow write: if false;
+    }
+
+    // 5. Store & Brand Settings: Publicly readable; writable ONLY by server
+    match /settings/{settingId} {
+      allow read: if true;
+      allow write: if false;
+    }
+
+    // 6. Uploaded Garment Images: Publicly readable; writable ONLY by server
+    match /images/{imageId} {
+      allow read: if true;
+      allow write: if false;
+    }
+
+    // 7. Contact Messages & Newsletter: Strictly server-managed
+    match /messages/{messageId} {
+      allow read, write: if false;
+    }
+    match /newsletter/{subscriberId} {
+      allow read, write: if false;
+    }
+
+    // 8. System & API Logs: Strictly private
+    match /logs/{logId} {
+      allow read, write: if false;
+    }
+
+    // 9. Live Connection Healthcheck: Managed strictly via server Admin SDK
+    match /healthcheck/{docId} {
+      allow read, write: if false;
+    }
+
+    // Default deny for all other collections and documents
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

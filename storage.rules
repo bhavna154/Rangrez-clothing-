@@ -1,0 +1,11 @@
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    // Media & Lookbook photos: Anyone can view product photos on the store;
+    // uploading and deleting is strictly allowed through the backend server only.
+    match /{allPaths=**} {
+      allow read: if true;
+      allow write: if false; // Only the backend server uploads through /api/upload
+    }
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "products": [
+    {
+      "id": "prod_1791885811104",
+      "slug": "rangrez-ringer-tee-6v70",
+      "name": "Rangrez Ringer Tee",
+      "description": "Fabric: Crafted from 100% cotton with a 180 GSM weight, offering a soft, breathable feel ideal for everyday wear. Finished with a bio-wash for enhanced smoothness and lasting comfort.\nFit: Designed in a versatile unisex fit that delivers a relaxed, easy-to-style silhouette for all body types.\nDetails: Features a classic ribbed neck and neatly finished self-turned sleeves, adding a refined touch to the retro-inspired design.\nPerfect For: Casual everyday styling, streetwear layering, or effortless vintage-inspired looks.\nCare: Machine wash cold, dry on low heat, and iron inside out if needed.",
+      "price": 1199,
+      "fit": "Relaxed",
+      "printType": "Direct-to-Garment (DTG)",
+      "gsm": 180,
+      "fabric": "100% Combed Ringspun Cotton",
+      "careInstructions": "Wash inside-out in cold water. Do not bleach. Do not iron directly on the print.",
+      "deliveryTime": "",
+      "shippingOffer": "",
+      "images": [
+        "/uploads/14348_webp_1791885799851_bbf0a0dd.webp",
+        "/uploads/14349_webp_1791885801164_f9d248af.webp",
+        "/uploads/13642_webp_1791885801790_a4e34d3f.webp",
+        "/uploads/14431_webp_1791885802502_74f91ab7.webp",
+        "/uploads/14430_webp_1791885803245_f7de9f47.webp",
+        "/uploads/14429_webp_1791885803905_0f3ce472.webp"
+      ],
+      "colors": [
+        {
+          "name": "Vintage White / Forest Green",
+          "hex": "#FAF9F6",
+          "secondaryHex": "#1B4D3E",
+          "photos": [
+            "/uploads/14348_webp_1791885799851_bbf0a0dd.webp",
+            "/uploads/14349_webp_1791885801164_f9d248af.webp",
+            "/uploads/13642_webp_1791885801790_a4e34d3f.webp"
+          ]
+        },
+        {
+          "name": "Vintage White / Navy Blue",
+          "hex": "#FAF9F6",
+          "secondaryHex": "#1E3A5F",
+          "photos": [
+            "/uploads/14431_webp_1791885802502_74f91ab7.webp",
+            "/uploads/14430_webp_1791885803245_f7de9f47.webp",
+            "/uploads/14429_webp_1791885803905_0f3ce472.webp"
+          ]
+        }
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "variants": [
+        {
+          "id": "var_grn_s",
+          "colorName": "Vintage White / Forest Green",
+          "colorHex": "#FAF9F6",
+          "secondaryHex": "#1B4D3E",
+          "size": "S",
+          "productSku": "RZ-RING-GRN-S",
+          "storeSku": "QK-RING-GRN-S",
+          "stock": 50
+        },
+        {
+          "id": "var_grn_m",
+          "colorName": "Vintage White / Forest Green",
+          "colorHex": "#FAF9F6",
+          "secondaryHex": "#1B4D3E",
+          "size": "M",
+          "productSku": "RZ-RING-GRN-M",
+          "storeSku": "QK-RING-GRN-M",
+          "stock": 45
+        },
+        {
+          "id": "var_grn_l",
+          "colorName": "Vintage White / Forest Green",
+          "colorHex": "#FAF9F6",
+          "secondaryHex": "#1B4D3E",
+          "size": "L",
+          "productSku": "RZ-RING-GRN-L",
+          "storeSku": "QK-RING-GRN-L",
+          "stock": 30
+        },
+        {
+          "id": "var_grn_xl",
+          "colorName": "Vintage White / Forest Green",
+          "colorHex": "#FAF9F6",
+          "secondaryHex": "#1B4D3E",
+          "size": "XL",
+          "productSku": "RZ-RING-GRN-XL",
+          "storeSku": "QK-RING-GRN-XL",
+          "stock": 0
+        },
+        {
+          "id": "var_nvy_s",
+          "colorName": "Vintage White / Navy Blue",
+          "colorHex": "#FAF9F6",
+          "secondaryHex": "#1E3A5F",
+          "size": "S",
+          "productSku": "RZ-RING-NVY-S",
+          "storeSku": "QK-RING-NVY-S",
+          "stock": 25
+        },
+        {
+          "id": "var_nvy_m",
+          "colorName": "Vintage White / Navy Blue",
+          "colorHex": "#FAF9F6",
+          "secondaryHex": "#1E3A5F",
+          "size": "M",
+          "productSku": "RZ-RING-NVY-M",
+          "storeSku": "QK-RING-NVY-M",
+          "stock": 40
+        },
+        {
+          "id": "var_nvy_l",
+          "colorName": "Vintage White / Navy Blue",
+          "colorHex": "#FAF9F6",
+          "secondaryHex": "#1E3A5F",
+          "size": "L",
+          "productSku": "RZ-RING-NVY-L",
+          "storeSku": "QK-RING-NVY-L",
+          "stock": 0
+        },
+        {
+          "id": "var_nvy_xl",
+          "colorName": "Vintage White / Navy Blue",
+          "colorHex": "#FAF9F6",
+          "secondaryHex": "#1E3A5F",
+          "size": "XL",
+          "productSku": "RZ-RING-NVY-XL",
+          "storeSku": "QK-RING-NVY-XL",
+          "stock": 15
+        }
+      ],
+      "qikinkDesignReference": "13327clearcut(1)-file_00000000add08208a1c16a7538fef77e",
+      "isActive": true,
+      "createdAt": "2026-10-13T10:03:31.104Z",
+      "updatedAt": "2026-10-13T10:45:00.000Z"
+    }
+  ],
+  "orders": [],
+  "coupons": [],
+  "customers": [],
+  "logs": [],
+  "messages": [],
+  "newsletter": [],
+  "brandSettings": {
+    "logoUrl": "",
+    "iconUrl": "",
+    "heroManImage": "/src/assets/images/hero_male_tee_1791638393383.jpg",
+    "heroWomanImage": "/src/assets/images/hero_female_tee_1791638403875.jpg",
+    "tileHimImage": "/src/assets/images/hero_male_tee_1791638393383.jpg",
+    "tileHerImage": "/src/assets/images/hero_female_tee_1791638403875.jpg",
+    "lookbookImages": [
+      "/src/assets/images/lookbook_indigo_dye_1791638414373.jpg",
+      "/src/assets/images/lookbook_urban_street_1791638440171.jpg",
+      "/src/assets/images/hero_male_tee_1791638393383.jpg",
+      "/src/assets/images/hero_female_tee_1791638403875.jpg"
+    ],
+    "heroHeading": "WEAR THE COLOURS OF YOUR STORY",
+    "heroSubline": "Premium printed oversized tees",
+    "deliveryTimeText": "",
+    "shippingOfferText": "",
+    "pincodeCoverageText": ""
+  },
+  "revokedSessions": []
+}

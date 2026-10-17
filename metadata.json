@@ -1,0 +1,6 @@
+{
+  "name": "RANGREZ — Wear the Colours of Your Story",
+  "description": "Premium heavyweight t-shirt house crafted with artisanal Indian dyeing heritage. Pure combed cotton, bespoke printed designs, zero compromise.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
